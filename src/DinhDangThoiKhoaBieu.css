@@ -1,0 +1,34 @@
+p {
+    color: blue;
+    text-align: center;
+    font-size: 30px;}
+th {
+     font-weight: bold;
+     text-align: center;
+     background-color: yellow;
+     padding: 5px;}
+td {
+     text-align: left;
+     background-color: lightgrey;
+     padding: 5px;}
+td, th {
+     border: 1px solid black;
+}
+table {
+       border-collapse: collapse;
+       font-size: 20px;
+       margin-left: 340px;
+       width: 50%;}
+td.trai, td.phai {
+        color: lightblue;
+        background-color: white;}
+td.trai {
+        text-align: left;}
+td.phai {
+        text-align: right;}
+table.trang, td.trai, td.phai  {
+        border: hidden;
+        padding-right: 30px;
+        margin-right: 9px;}
+.maucam {
+         background-color: orange;}
